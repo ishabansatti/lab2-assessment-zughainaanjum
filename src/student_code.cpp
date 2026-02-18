@@ -12,16 +12,13 @@ float getFloatValue() {
 }
 
 char getCharValue() {
-    char var_char = "A";
-
-
-
+    char var_char = 'A';
     return var_char;
 }
 
 int convertFloatToInt(float value) {
 
-    return(int) value;
+    return static_cast<int>(value);
 }
 float convertFahrenheitToCelsius(float fahrenheit) {
     
