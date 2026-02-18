@@ -7,7 +7,7 @@ int getIntValue() {
 }
 
 float getFloatValue() {
-    float var_float = 10.75;
+    float var_float = 10.75f;
     return var_float;
 }
 
@@ -22,7 +22,7 @@ int convertFloatToInt(float value) {
 }
 float convertFahrenheitToCelsius(float fahrenheit) {
     
-    float celsius = (fahrenheit - 32.0) * 5.0 / 9.0;
+    float celsius = (fahrenheit - 32) * 5 / 9;
     
     return celsius;
 }
