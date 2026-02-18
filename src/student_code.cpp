@@ -26,12 +26,3 @@ float convertFahrenheitToCelsius(float fahrenheit) {
     
     return celsius;
 }
-/*
-Convert Fahrenheit to Celsius and store your answer in a variable celsius.
-
-Formula:
-    Celsius = (Fahrenheit - 32) * 5 / 9
-*/
-    //return celsius;
-
-}
